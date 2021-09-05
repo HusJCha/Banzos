@@ -100,6 +100,7 @@ class HomeActivity : AppBaseActivity() {
                 showMessage(message)
             }
         }).fetchList(URLHelper.ISLAND_IMAGE_URL, IslandDetails::class.java, param, localClassName)
+        * 
         * */
     }
 
